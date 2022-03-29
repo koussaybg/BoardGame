@@ -1,0 +1,39 @@
+.option-button{
+    -fx-text-align: center;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: rgba(0, 0, 0, .7);
+    -fx-text-fill: rgba(252, 240, 0,0.9);
+}
+
+.option-undo{
+    -fx-background-image: url('/img/UndoButton.png');
+    -fx-background-size: 35px 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(0, 0, 0, .7);
+    -fx-background-position: center;
+}
+
+.option-play{
+    -fx-background-image: url('/img/PlayButton.png');
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(0, 0, 0, .7);
+    -fx-background-position: center;
+}
+
+.option-redo{
+    -fx-background-image: url('/img/RedoButton.png');
+    -fx-background-size: 35px 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(0, 0, 0, .7);
+    -fx-background-position: center;
+}
+
+.option-take{
+    -fx-background-image: url('/img/TakeGemsButton.png');
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(0, 0, 0, .7);
+    -fx-background-position: center;
+}

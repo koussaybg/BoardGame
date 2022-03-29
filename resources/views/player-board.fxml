@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml"
+         prefHeight="180.0" prefWidth="960.0" type="AnchorPane">
+    <HBox layoutY="2.0" >
+        <Label fx:id="prestigeLabel" styleClass="player-prestige-label"/>
+        <Label fx:id="nameLabel" styleClass="name-label"/>
+    </HBox>
+    <Pane  fx:id="playerGems" prefWidth="670.0">
+        <Button fx:id="returnGemsButton" styleClass="return-gems-button" layoutX="735.0" layoutY="160"> Return Gems </Button>
+    </Pane>
+    <AnchorPane prefWidth="120.0" prefHeight="180.0" styleClass="diamond-card" layoutX="0.0" layoutY="25.0">
+        <Label fx:id="prestigeDiamond" prefWidth="120.0" prefHeight="27.0" layoutY="0.0" styleClass="prestige-label" alignment="CENTER">Prestige</Label>
+        <Label fx:id="gemCountDiamond" styleClass="gem-diamond,gem-label" layoutX="30.0" layoutY="80.0" prefHeight="60.0" prefWidth="60.0"  alignment="CENTER">0</Label>
+    </AnchorPane>
+    <AnchorPane prefWidth="120.0" prefHeight="180.0" styleClass="emerald-card" layoutX="130.0" layoutY="25.0">
+        <Label fx:id="prestigeEmerald" prefWidth="120.0" prefHeight="27.0" layoutY="0.0" styleClass="prestige-label" alignment="CENTER">Prestige</Label>
+        <Label fx:id="gemCountEmerald" styleClass="gem-emerald,gem-label" layoutX="30.0" layoutY="80.0" prefHeight="60.0" prefWidth="60.0"  alignment="CENTER">0</Label>
+    </AnchorPane>
+    <AnchorPane prefWidth="120.0" prefHeight="180.0" styleClass="onyx-card" layoutX="260.0" layoutY="25.0">
+        <Label fx:id="prestigeOnyx" prefWidth="120.0" prefHeight="27.0" layoutY="0.0" styleClass="prestige-label" alignment="CENTER">Prestige</Label>
+        <Label fx:id="gemCountOnyx" styleClass="gem-onyx,gem-label" layoutX="30.0" layoutY="80.0" prefHeight="60.0" prefWidth="60.0"  alignment="CENTER">0</Label>
+    </AnchorPane>
+    <AnchorPane prefWidth="120.0" prefHeight="180.0" styleClass="ruby-card" layoutX="390.0" layoutY="25.0">
+        <Label fx:id="prestigeRuby" prefWidth="120.0" prefHeight="27.0" layoutY="0.0" styleClass="prestige-label" alignment="CENTER">Prestige</Label>
+        <Label fx:id="gemCountRuby" styleClass="gem-ruby,gem-label" layoutX="30.0" layoutY="80.0" prefHeight="60.0" prefWidth="60.0"  alignment="CENTER">0</Label>
+    </AnchorPane>
+    <AnchorPane prefWidth="120.0" prefHeight="180.0" styleClass="sapphire-card" layoutX="520.0" layoutY="25.0">
+        <Label fx:id="prestigeSapphire" prefWidth="120.0" prefHeight="27.0" layoutY="0.0" styleClass="prestige-label" alignment="CENTER">Prestige</Label>
+        <Label fx:id="gemCountSapphire" styleClass="gem-sapphire,gem-label" layoutX="30.0" layoutY="80.0" prefHeight="60.0" prefWidth="60.0"  alignment="CENTER">0</Label>
+    </AnchorPane>
+    <HBox fx:id="reservedCardsHBox" layoutX="950.0" layoutY="25.0"/>
+
+</fx:root>

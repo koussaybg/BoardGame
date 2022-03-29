@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<fx:root type="AnchorPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+         maxHeight="120.0" minHeight="120.0" maxWidth="120.0" minWidth="120.0" prefHeight="120.0" prefWidth="120.0" styleClass="background">
+    <Label fx:id="gemCountDiamond" styleClass="gem-diamond,gem-label" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="30.0"  alignment="CENTER"></Label>
+    <Label fx:id="gemCountEmerald" styleClass="gem-emerald,gem-label" layoutX="10.0" layoutY="80.0" prefHeight="30.0" prefWidth="30.0"  alignment="CENTER"></Label>
+    <Label fx:id="gemCountOnyx" styleClass="gem-onyx,gem-label" layoutX="80.0" layoutY="10.0" prefHeight="30.0" prefWidth="30.0"  alignment="CENTER"></Label>
+    <Label fx:id="gemCountRuby" styleClass="gem-ruby,gem-label" layoutX="80.0" layoutY="80.0" prefHeight="30.0" prefWidth="30.0"  alignment="CENTER"></Label>
+    <Label fx:id="gemCountSapphire" styleClass="gem-sapphire,gem-label" layoutX="45.0" layoutY="45.0" prefHeight="30.0" prefWidth="30.0"  alignment="CENTER"></Label>
+    <Label fx:id="prestigeLabel" styleClass="prestige-label" layoutX="0.0" layoutY="0.0" prefHeight="120.0" prefWidth="120.0"  alignment="CENTER"></Label>
+</fx:root>

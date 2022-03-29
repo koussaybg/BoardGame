@@ -1,0 +1,59 @@
+.gem-diamond{
+    -fx-background-image: url("../../resources/img/gems_diamond.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60px 60px;
+
+    -fx-background-color: transparent; 
+}
+.gem-emerald{
+    -fx-background-image: url("../../resources/img/gems_emerald.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60px 60px;
+
+    -fx-background-color: transparent; 
+}
+.gem-onyx{
+    -fx-background-image: url("../../resources/img/gems_onyx.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60px 60px;
+
+    -fx-background-color: transparent; 
+}
+.gem-ruby{
+    -fx-background-image: url("../../resources/img/gems_ruby.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60px 60px;
+
+    -fx-background-color: transparent; 
+}
+.gem-sapphire{
+    -fx-background-image: url("../../resources/img/gems_sapphire.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60px 60px;
+
+    -fx-background-color: transparent; 
+}
+.gem-joker{
+    -fx-background-image: url("../../resources/img/gems_joker.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60px 60px;
+
+    -fx-background-color: transparent; 
+}
+.hover-gem-button{
+    /* -fx-background-color: rgba(70, 70, 70, 0.5);
+    -fx-text-fill: white; */
+}
+.gem-button{
+    -fx-text-align: center;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(252, 240, 0,0.9);
+}
+
+.gem-button.button .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}
+

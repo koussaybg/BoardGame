@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="900.0" maxWidth="1600.0" minHeight="900.0" minWidth="1600.0" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="newGameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="420.0" text="Neues Spiel" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="50.0" />
+         </font>
+      </Label>
+      
+      <Label fx:id="playerOneLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="400.0" layoutY="220.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" text="Spieler 1" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="40.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="playerOneName" layoutX="600.0" layoutY="225.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="340.0" promptText="Spielername" unFocusColor="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXComboBox fx:id="playerOneTypeBox" layoutX="1000.0" layoutY="225.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="140.0" promptText="Spielertyp" unFocusColor="#ffda00" />
+
+      <Label fx:id="playerTwoLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="400.0" layoutY="320.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" text="Spieler 2" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="40.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="playerTwoName" layoutX="600.0" layoutY="325.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="340.0" promptText="Spielername" unFocusColor="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXComboBox fx:id="playerTwoTypeBox" layoutX="1000.0" layoutY="325.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="140.0" promptText="Spielertyp" unFocusColor="#ffda00" />
+      
+      <Label fx:id="playerThreeLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="400.0" layoutY="420.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" text="Spieler 3" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="40.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="playerThreeName" layoutX="600.0" layoutY="425.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="340.0" promptText="Spielername" unFocusColor="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXComboBox fx:id="playerThreeTypeBox" layoutX="1000.0" layoutY="425.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="140.0" promptText="Spielertyp" unFocusColor="#ffda00" />
+      
+      <Label fx:id="playerFourLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="400.0" layoutY="520.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" text="Spieler 4" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="40.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="playerFourName" layoutX="600.0" layoutY="525.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="340.0" promptText="Spielername" unFocusColor="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXComboBox fx:id="playerFourTypeBox" layoutX="1000.0" layoutY="525.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="140.0" promptText="Spielertyp" unFocusColor="#ffda00" />
+      <JFXButton fx:id="loadCardsButton" layoutX="800.0" layoutY="775.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onLoadCardsButtonClicked" prefHeight="100.0" prefWidth="400.0" ripplerFill="#4059a9" text="Kartensatz laden" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="30.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="startGameButton" alignment="TOP_CENTER" contentDisplay="CENTER" defaultButton="true" graphicTextGap="0.0" layoutX="400.0" layoutY="600.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onStartGameButtonClicked" prefHeight="125.0" prefWidth="800.0" ripplerFill="#4059a9" text="Spiel starten" textAlignment="CENTER" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="40.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="startWindowButton" cancelButton="true" layoutX="400.0" layoutY="775.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onStartWindowButtonClicked" prefHeight="100.0" prefWidth="400.0" ripplerFill="#4059a9" text="Zurück zum Hauptmenü" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="30.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

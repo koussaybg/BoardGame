@@ -1,0 +1,36 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<Projekt2>",
+            "request": "launch",
+            "mainClass": "application.Main",
+            "projectName": "Projekt2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestStage<Projekt2>",
+            "request": "launch",
+            "mainClass": "view.customcontrols.TestStage",
+            "projectName": "Projekt2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestStageGemStack<Projekt2>",
+            "request": "launch",
+            "mainClass": "view.customcontrols.TestStageGemStack",
+            "projectName": "Projekt2"
+        }
+    ]
+}

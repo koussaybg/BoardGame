@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+
+<AnchorPane maxHeight="900.0" maxWidth="1600.0" minHeight="900.0" minWidth="1600.0" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">   
+   <children>
+      <Label fx:id="HighscoreLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="420.0" text="Highscores " textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="50.0" />
+         </font>
+      </Label>
+      <TableView fx:id="highscoreList" layoutX="400.0" layoutY="150.0" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" opacity="0.5" prefHeight="600.0" prefWidth="800.0">
+         <columns>
+            <TableColumn fx:id="nameColumn" prefWidth="600.0" text="Spielername" />
+            <TableColumn fx:id="scoreColumn" prefWidth="195.0" text="Punktezahl" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="startWindowButton" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" layoutX="400.0" layoutY="775.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onStartWindowButtonClicked" prefHeight="100.0" prefWidth="400.0" ripplerFill="#4059a9" text="Zurück zum Hauptmenü" textAlignment="CENTER" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="30.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="resetHighscoresButton" alignment="CENTER" contentDisplay="CENTER" layoutX="800.0" layoutY="775.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onResetHighscoresButtonClicked" prefHeight="100.0" prefWidth="400.0" ripplerFill="#4059a9" text="Highscores zurücksetzen" textAlignment="CENTER" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="30.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

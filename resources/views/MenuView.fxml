@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane fx:id="menuViewTabs" maxHeight="900.0" maxWidth="1600.0" minHeight="900.0" minWidth="1600.0" prefHeight="900.0" prefWidth="1600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="view.viewController.MenuViewController">
+  <tabs>
+    <Tab fx:id="startWindowTab" text="StartWindow">
+      <content>
+        <fx:include source="/views/StartWindow.fxml"></fx:include>
+      </content>
+    </Tab>
+    <Tab fx:id="newGameWindowTab" text="NewGameWindow">
+      <content>
+        <fx:include source="/views/NewGameWindow.fxml"></fx:include>
+      </content>
+    </Tab>
+      <Tab fx:id="loadGameWindowTab" text="LoadGameWindow">
+        <content>
+          <fx:include source="/views/LoadGameWindow.fxml"></fx:include>
+        </content>
+      </Tab>
+      <Tab fx:id="highscoreWindowTab" text="HighscoreWindow">
+        <content>
+          <fx:include source="/views/HighscoreWindow.fxml"></fx:include>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

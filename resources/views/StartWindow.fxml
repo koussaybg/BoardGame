@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="900.0" maxWidth="1600.0" minHeight="900.0" minWidth="1600.0" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXButton fx:id="newGameButton" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" graphicTextGap="0.0" layoutX="400.0" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onNewGameButtonClicked" prefHeight="200.0" prefWidth="800.0" ripplerFill="#4059a9" text="Neues Spiel" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="50.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="loadGameButton" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="400.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onLoadGameButtonClicked" prefHeight="200.0" prefWidth="800.0" ripplerFill="#4059a9" text="Spiel laden" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="50.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="highscoreButton" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="400.0" layoutY="450.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onHighscoreButtonClicked" prefHeight="200.0" prefWidth="800.0" ripplerFill="#4059a9" text="Highscores anzeigen" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="50.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="closeGameButton" alignment="CENTER" contentDisplay="CENTER" cancelButton="true" graphicTextGap="0.0" layoutX="400.0" layoutY="650.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onCloseGameButtonClicked" prefHeight="200.0" prefWidth="800.0" ripplerFill="#4059a9" text="Spiel beenden" textFill="#ffda00">
+         <font>
+            <Font name="Palatino Linotype" size="50.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+.card-front-diamond{
+    -fx-background-image: url("../../resources/img/card_front_diamond.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 120px 180px;
+}
+.card-front-emerald{
+    -fx-background-image: url("../../resources/img/card_front_emerald.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 120px 180px;
+}
+.card-front-onyx{
+    -fx-background-image: url("../../resources/img/card_front_onyx.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 120px 180px;
+}
+.card-front-ruby{
+    -fx-background-image: url("../../resources/img/card_front_ruby.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 120px 180px;
+}
+.card-front-sapphire{
+    -fx-background-image: url("../../resources/img/card_front_sapphire.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 120px 180px;
+}
+.hover-button-background{
+    -fx-background-color: rgba(70, 70, 70, 0.5);
+    -fx-text-fill: white;
+}
+
+.highlight-border{
+    -fx-border-color: #ffcc00 ;
+    -fx-border-width: 4;
+    -fx-border-style: segments(10, 15, 15, 15)  line-cap round ;
+}
+
+.tipp-highlight-border{
+    -fx-border-color: #CC0000 ;
+    -fx-border-width: 4;
+    -fx-border-style: solid;
+}
+
+.prestige{
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgba(252, 240, 0,0.9);
+}
+
+.prestige .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.7px;
+}
+

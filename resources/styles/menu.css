@@ -1,0 +1,28 @@
+#startPane{
+    -fx-background-image: url("../../resources/img/MenuBackground.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1600px 900px;
+}
+
+#newGamePane{
+    -fx-background-image: url("../../resources/img/MenuBackground.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1600px 900px;
+}
+
+#loadGamePane{
+    -fx-background-image: url("../../resources/img/MenuBackground.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1600px 900px;
+}
+
+#highscorePane{
+    -fx-background-image: url("../../resources/img/MenuBackground.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1600px 900px;
+}
+
+@font-face {  
+    font-family: 'Blackadder ITC';  
+    src: url('/resources/fonts/ITCBLKAD.TTF');  
+} 
